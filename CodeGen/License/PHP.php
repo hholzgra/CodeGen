@@ -4,9 +4,9 @@
  *
  * PHP versions 5
  *
- * LICENSE: This source file is subject to version 3.0 of the PHP license
+ * LICENSE: This source file is subject to version 3.01 of the PHP license
  * that is available through the world-wide-web at the following URI:
- * http://www.php.net/license/3_0.txt.  If you did not receive a copy of
+ * http://www.php.net/license/3_01.txt.  If you did not receive a copy of
  * the PHP License and are unable to obtain it through the web, please
  * send a note to license@php.net so we can mail you a copy immediately.
  *
@@ -14,7 +14,7 @@
  * @package    CodeGen
  * @author     Hartmut Holzgraefe <hartmut@php.net>
  * @copyright  2005-2008 Hartmut Holzgraefe
- * @license    http://www.php.net/license/3_0.txt  PHP License 3.0
+ * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
  * @version    CVS: $Id$
  * @link       http://pear.php.net/package/CodeGen
  */
@@ -27,7 +27,7 @@
  * @package    CodeGen
  * @author     Hartmut Holzgraefe <hartmut@php.net>
  * @copyright  2005-2008 Hartmut Holzgraefe
- * @license    http://www.php.net/license/3_0.txt  PHP License 3.0
+ * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
  * @version    Release: @package_version@
  * @link       http://pear.php.net/package/CodeGen
  */
@@ -63,10 +63,10 @@ class CodeGen_License_PHP extends CodeGen_License
     function getComment() 
     {
         return <<<EOD
-   | This source file is subject to version 3.0 of the PHP license,       |
+   | This source file is subject to version 3.01 of the PHP license,       |
    | that is bundled with this package in the file LICENSE, and is        |
    | available through the world-wide-web at the following url:           |
-   | http://www.php.net/license/3_0.txt.                                  |
+   | http://www.php.net/license/3_01.txt.                                  |
    | If you did not receive a copy of the PHP license and are unable to   |
    | obtain it through the world-wide-web, please send a note to          |
    | license@php.net so we can mail you a copy immediately.               |
@@ -84,8 +84,8 @@ EOD;
     {
         return <<<EOD
 -------------------------------------------------------------------- 
-                  The PHP License, Version 3.0
-Copyright (c) 1999 - 2003 The PHP Group. All rights reserved.
+                  The PHP License, version 3.01
+Copyright (c) 1999 - 2014 The PHP Group. All rights reserved.
 -------------------------------------------------------------------- 
 
 Redistribution and use in source and binary forms, with or without
@@ -123,8 +123,8 @@ are met:
 
   6. Redistributions of any form whatsoever must retain the following
      acknowledgment:
-     "This product includes PHP, freely available from
-     <http://www.php.net/>".
+     "This product includes PHP software, freely available from
+     <http://www.php.net/software/>".
 
 THIS SOFTWARE IS PROVIDED BY THE PHP DEVELOPMENT TEAM ``AS IS'' AND 
 ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
@@ -149,7 +149,7 @@ The PHP Group can be contacted via Email at group@php.net.
 For more information on the PHP Group and the PHP project, 
 please see <http://www.php.net>.
 
-This product includes the Zend Engine, freely available at
+PHP includes the Zend Engine, freely available at
 <http://www.zend.com>.
 
 EOD;
@@ -162,7 +162,7 @@ EOD;
      */
     function getURI()
     {
-        return "http://php.net/license";
+        return "http://php.net/license/3_01.txt";
     }
 }
 
