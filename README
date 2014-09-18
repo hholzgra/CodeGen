@@ -1,0 +1,8 @@
+Tool to create Code generaters that operate on XML descriptions
+===============================================================
+
+This is an 'abstract' package, it provides the base
+framework for applications like CodeGen_PECL and
+CodeGen_MySqlUDF 
+
+
