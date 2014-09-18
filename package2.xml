@@ -65,6 +65,7 @@ http://pear.php.net/dtd/package-2.0.xsd">
     </dir> <!-- //CodeGen/License -->
     <dir name="Tools">
      <file baseinstalldir="/" name="Code.php" role="php" />
+     <file baseinstalldir="/" name="Fold.php" role="php" />
      <file baseinstalldir="/" name="FileReplacer.php" role="php" />
      <file baseinstalldir="/" name="Getopt.php" role="php" />
      <file baseinstalldir="/" name="Group.php" role="php" />
