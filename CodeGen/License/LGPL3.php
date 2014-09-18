@@ -15,7 +15,6 @@
  * @author     Hartmut Holzgraefe <hartmut@php.net>
  * @copyright  2005-2008 Hartmut Holzgraefe
  * @license    http://www.php.net/license/3_01.txt  PHP License 3.01
- * @version    CVS: $Id: LGPL.php,v 1.2 2005/08/10 02:23:27 hholzgra Exp $
  * @link       http://pear.php.net/package/CodeGen
  */
 
